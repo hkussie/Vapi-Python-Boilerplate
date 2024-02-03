@@ -15,7 +15,7 @@ def main(opening, context, model, voice):
         'recordingEnabled': True,
         'interruptionsEnabled': False
     }
-    vapi = Vapi(api_key='21289a2f-f002-46d4-aa5f-b98c4d1c6212')
+    vapi = Vapi(api_key='{{api_key_goes_here}}')
     vapi.start(assistant=assistant)
 
 if __name__ == "__main__":
